@@ -49,7 +49,7 @@ group :production,:test  do
 	gem 'pg'
 end
 ruby "2.2.6",
-	:engine => "jruby",
+	:engine => "ruby",
 	:engine_version => "2.2.6"
 group :development  do
 	gem 'sqlite3', '~>1.3.11'
