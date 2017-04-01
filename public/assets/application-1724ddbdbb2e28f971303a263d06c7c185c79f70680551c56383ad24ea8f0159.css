@@ -1,0 +1,768 @@
+/*
+
+ */
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* line 12, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 25, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 39, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+/* line 52, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 62, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 71, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 82, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 95, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 105, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 115, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 124, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 134, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 145, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 153, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 162, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 171, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 179, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 183, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 194, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 203, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 212, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 220, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Remove the margin in Firefox and Safari.
+ */
+/* line 231, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 244, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 254, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 265, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 276, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 288, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 302, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 316, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 325, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 334, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 344, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 354, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+/* line 363, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 373, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+/* line 386, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+details,
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 395, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 406, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+/* line 414, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+/* line 425, /home/wasim/Desktop/notebook/app/assets/stylesheets/normalize.css.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 11, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 16, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+body {
+  padding-top: 4.5rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* line 21, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 26, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+.wrapper_with_padding {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3.5rem 0;
+}
+
+/* line 32, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 37, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 41, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+button, .button {
+  border: none;
+  outline: none;
+  background: #33CD99;
+  padding: 1rem 3.5rem;
+  border-radius: 2rem;
+}
+/* line 47, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+button a, .button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 53, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+.button {
+  color: white;
+  margin: 2rem 0;
+}
+
+/* line 58, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+a {
+  color: #33CD99;
+  text-decoration: none;
+}
+/* line 61, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+a:hover {
+  color: #2B2E2E;
+}
+
+/* line 66, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+header {
+  background: #2B2E2E;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1.75rem 0;
+  border-bottom: 7px solid #33CD99;
+}
+/* line 73, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+header .header_inner {
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 76, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+header .header_inner #logo {
+  display: inline-block;
+  width: 10rem;
+  float: left;
+}
+/* line 81, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+header .header_inner nav {
+  float: right;
+}
+/* line 83, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+header .header_inner nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-left: 1rem;
+}
+/* line 89, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+header .header_inner nav a:hover {
+  color: #33CD99;
+}
+
+/* line 97, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+footer {
+  background: #2B2E2E;
+  width: 100%;
+  padding: 2rem 0;
+  color: white;
+  text-align: center;
+  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 104, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+footer p {
+  margin: 0;
+  font-size: .85rem;
+}
+
+/* line 110, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid #C0C1C1;
+  border-radius: .4rem;
+}
+
+/* line 117, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+input[type="text"], input[type="email"], input[type="password"] {
+  height: 40px;
+}
+
+/* line 121, /home/wasim/Desktop/notebook/app/assets/stylesheets/global.css.scss */
+textarea {
+  min-height: 200px;
+}
+
+/* line 2, /home/wasim/Desktop/notebook/app/assets/stylesheets/notes.css.scss */
+#notes .note {
+  background: #2B2E2E;
+  width: 30%;
+  min-height: 150px;
+  margin: 1rem 1%;
+  padding: 1.5rem 2.5%;
+  float: left;
+  border-radius: .4rem;
+  position: relative;
+}
+/* line 11, /home/wasim/Desktop/notebook/app/assets/stylesheets/notes.css.scss */
+#notes .note .title {
+  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+  letter-spacing: 1px;
+}
+/* line 17, /home/wasim/Desktop/notebook/app/assets/stylesheets/notes.css.scss */
+#notes .note .date {
+  position: absolute;
+  bottom: .25rem;
+  left: 8.5%;
+  color: #33CD99;
+  font-size: .85rem;
+}
+
+/* line 29, /home/wasim/Desktop/notebook/app/assets/stylesheets/notes.css.scss */
+#note_show .title {
+  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #E9E9E9;
+}
+/* line 37, /home/wasim/Desktop/notebook/app/assets/stylesheets/notes.css.scss */
+#note_show p {
+  font-size: 1.375rem;
+  line-height: 1.75;
+}
+/* line 41, /home/wasim/Desktop/notebook/app/assets/stylesheets/notes.css.scss */
+#note_show .buttons {
+  margin-top: 3rem;
+}
+/* line 44, /home/wasim/Desktop/notebook/app/assets/stylesheets/notes.css.scss */
+#note_show .buttons a.button {
+  padding: .5rem 2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: #33CD99;
+  border: 5px solid #E9E9E9;
+  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+/* line 1, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#banner {
+  background-image: url("/assets/was-fc377ff7fffca1cd634486db04294f09c0b787996af39d3a21d960801ba31ddf.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  min-height: 500px;
+  display: table;
+}
+/* line 9, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#banner .banner_content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 13, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#banner .banner_content h1 {
+  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 3.5rem;
+  margin: 0;
+}
+/* line 19, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#banner .banner_content p {
+  font-size: 1.5rem;
+  margin: 0 0 2.5rem 0;
+  color: rgba(250, 250, 250, 0.5);
+}
+
+/* line 27, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#testimonial {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #afb0b0;
+  padding: 3.5rem 0;
+}
+/* line 32, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#testimonial .quote {
+  margin: 0 0 .5rem 0;
+}
+/* line 35, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#testimonial .name {
+  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2B2E2E;
+  margin: 0;
+  font-size: .85rem;
+}
+
+/* line 43, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#callouts {
+  background-image: url("/assets/was-fc377ff7fffca1cd634486db04294f09c0b787996af39d3a21d960801ba31ddf.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  min-height: 400px;
+  display: table;
+}
+/* line 51, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#callouts .callout_inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 55, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#callouts .callout {
+  text-align: center;
+  width: 33.3333%;
+  padding: 1.5rem 2.5%;
+  float: left;
+}
+/* line 60, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#callouts .callout i {
+  font-size: 2.5rem;
+  color: #33CD99;
+}
+/* line 64, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#callouts .callout h2 {
+  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 0;
+}
+/* line 69, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#callouts .callout p {
+  color: rgba(250, 250, 250, 0.4);
+}
+
+/* line 75, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#bottom_cta {
+  text-align: center;
+  padding: 7.5rem 0;
+}
+/* line 78, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#bottom_cta h2 {
+  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2B2E2E;
+  font-size: 3rem;
+  margin: 0;
+}
+/* line 84, /home/wasim/Desktop/notebook/app/assets/stylesheets/welcome.css.scss */
+#bottom_cta p {
+  font-size: 1.25rem;
+  margin: 0 0 2.5rem 0;
+  color: #a7a8a8;
+}
